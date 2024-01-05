@@ -9,6 +9,8 @@ import weather from "./assets/Text to speech - Google Chrome 19-10-2023 13_43_25
 import cal from "./assets/Text to speech - Google Chrome 19-10-2023 13_44_46.png";
 import textmanipulate from "./assets/Text to speech - Google Chrome 19-10-2023 13_45_58.png";
 import development from "./assets/devlopment.png";
+import auth from './assets/auth.png';
+import imageSharingApp from './assets/insta first.png';
 
 import {
   AiFillTwitterCircle,
@@ -22,7 +24,7 @@ export default function App() {
       <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">Web Developer</h1>
+            <h1 className="font-burtons text-xl font-semibold">FullStack Web Developer</h1>
             <ul className="flex items-center">
               <li>
                 <a
@@ -40,7 +42,7 @@ export default function App() {
               Utkarsh Singh
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Developer and designer.
+              Developer and Designer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Providing services for programming and design content needs. Join
@@ -112,9 +114,9 @@ export default function App() {
               </p>
               <h4 className="py-4 text-teal-600">Technologies I Work With</h4>
               <p className="text-gray-800 py-1">HTML, CSS, JavaScript</p>
-              <p className="text-gray-800 py-1">React (Front-end)</p>
-              <p className="text-gray-800 py-1">Node.js (Back-end)</p>
-              <p className="text-gray-800 py-1">Databases: MongoDB</p>
+              <p className="text-gray-800 py-1">React, Next Js 14, Typescript (Front-end)</p>
+              <p className="text-gray-800 py-1">Node.js, Express (Back-end)</p>
+              <p className="text-gray-800 py-1">MongoDB, Cloudinary</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 hover:scale-105 hover:ease-in-out hover:cursor-pointer flex flex-col items-center">
               <img 
@@ -130,10 +132,10 @@ export default function App() {
                 Let's turn your ideas into captivating designs.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">CSS, SASS</p>
+              <p className="text-gray-800 py-1">Tailwind CSS</p>
+              <p className="text-gray-800 py-1">React-Hot-Toast</p>
+              <p className="text-gray-800 py-1">Material-UI, Bootstrap</p>
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 hover:scale-105 hover:ease-in-out hover:cursor-pointer flex flex-col items-center">
@@ -163,7 +165,7 @@ export default function App() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Web development, to me, is not just a job; it's a passion that
+              Web development, to me, is not just a job, it's a passion that
               fuels my commitment to creating a better online world. I've
               strived for excellence in every line of code, every responsive
               design, and every user interaction.
@@ -174,6 +176,32 @@ export default function App() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1">
+              <a
+                href="https://authentication-system-32ypjptib-iutkarsh077s-projects.vercel.app/login"
+                target="_blank"
+              >
+                <img
+                  className="rounded-lg object-cover"
+                  style={{ width: "100%", height: "100%" }}
+                  src={auth}
+                  alt="Auth System"
+                />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a
+                href="https://github.com/iutkarsh077/home"
+                target="_blank"
+              >
+                <img
+                  className="rounded-lg object-cover"
+                  style={{ width: "100%", height: "100%" }}
+                  src={imageSharingApp}
+                  alt="Image Sharing App"
+                />
+              </a>
+            </div>
             <div className="basis-1/3 flex-1">
               <a
                 href="https://iutkarsh077.github.io/Text-To-Speech/"
