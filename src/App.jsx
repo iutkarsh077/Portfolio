@@ -191,7 +191,7 @@ export default function App() {
             </div>
             <div className="basis-1/3 flex-1">
               <a
-                href="https://github.com/iutkarsh077/home"
+                href="https://github.com/iutkarsh077/SocialMedia-App"
                 target="_blank"
               >
                 <img
