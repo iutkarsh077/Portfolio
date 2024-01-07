@@ -11,6 +11,7 @@ import textmanipulate from "./assets/Text to speech - Google Chrome 19-10-2023 1
 import development from "./assets/devlopment.png";
 import auth from './assets/auth.png';
 import imageSharingApp from './assets/insta first.png';
+import issuetracker from './assets/iisue-tracker.png';
 
 import {
   AiFillTwitterCircle,
@@ -264,6 +265,19 @@ export default function App() {
                   style={{ width: "100%", height: "100%" }}
                   src={cal}
                   alt="Calculator"
+                />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a
+                href="https://issue-tracker-ten-sandy.vercel.app/"
+                target="_blank"
+              >
+                <img
+                  className="rounded-lg object-cover"
+                  style={{ width: "100%", height: "100%" }}
+                  src={issuetracker}
+                  alt="Text to Speech"
                 />
               </a>
             </div>
