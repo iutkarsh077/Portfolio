@@ -16,7 +16,7 @@ import issuetracker from './assets/iisue-tracker.png';
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillYoutube,
+  AiFillYoutube, AiFillGithub
 } from "react-icons/ai";
 
 export default function App() {
@@ -65,11 +65,11 @@ export default function App() {
                 <AiFillLinkedin />
               </a>
               <a
-                href="https://www.youtube.com/@mrgtxgamerz1"
+                href="https://github.com/iutkarsh077"
                 target="_blank"
                 className="hover:text-white hover:ease-in-out"
               >
-                <AiFillYoutube />
+                <AiFillGithub/>
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b flex items-center from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
