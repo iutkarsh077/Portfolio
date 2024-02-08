@@ -2,6 +2,7 @@ import React from "react";
 import myimg from "./assets/myimg.jpg";
 import code from "./assets/code.png";
 import design from "./assets/design.png";
+import Netflix from './assets/port-netflix.png'
 import Textspeech from "./assets/Text to speech - Google Chrome 19-10-2023 13_40_52.png";
 import aeroplane from "./assets/Text to speech - Google Chrome 19-10-2023 13_41_56.png";
 import sidhu from "./assets/Text to speech - Google Chrome 19-10-2023 13_42_37.png";
@@ -185,7 +186,7 @@ export default function App() {
                 <img
                   className="rounded-lg object-cover"
                   style={{ width: "100%", height: "100%" }}
-                  src={auth}
+                  src={Netflix}
                   alt="Netflix Clone"
                 />
               </a>
