@@ -177,6 +177,19 @@ export default function App() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="basis-1/3 flex-1">
+              <a
+                href="https://netflix-phi-black.vercel.app/"
+                target="_blank"
+              >
+                <img
+                  className="rounded-lg object-cover"
+                  style={{ width: "100%", height: "100%" }}
+                  src={auth}
+                  alt="Netflix Clone"
+                />
+              </a>
+            </div>
             <div className="basis-1/3 flex-1">
               <a
                 href="https://authentication-system-32ypjptib-iutkarsh077s-projects.vercel.app/login"
