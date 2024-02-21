@@ -180,7 +180,7 @@ export default function App() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
           <div className="basis-1/3 flex-1">
               <a
-                href="https://netflix-phi-black.vercel.app/"
+                href="https://videostreaming-phi-black.vercel.app/"
                 target="_blank"
               >
                 <img
