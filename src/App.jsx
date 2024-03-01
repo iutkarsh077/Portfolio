@@ -17,12 +17,12 @@ import codingCourses from './assets/coderCourses.png';
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillYoutube, AiFillGithub
+ AiFillGithub
 } from "react-icons/ai";
 
 export default function App() {
   return (
-    <div>
+    <div className="dark">
       <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
