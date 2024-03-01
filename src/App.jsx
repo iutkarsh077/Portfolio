@@ -8,11 +8,11 @@ import aeroplane from "./assets/Text to speech - Google Chrome 19-10-2023 13_41_
 import sidhu from "./assets/Text to speech - Google Chrome 19-10-2023 13_42_37.png";
 import weather from "./assets/Text to speech - Google Chrome 19-10-2023 13_43_25.png";
 import cal from "./assets/Text to speech - Google Chrome 19-10-2023 13_44_46.png";
-import textmanipulate from "./assets/Text to speech - Google Chrome 19-10-2023 13_45_58.png";
 import development from "./assets/devlopment.png";
 import auth from './assets/auth.png';
 import shopsmart from "./assets/shopsmart.png";
 import RealTales from "./assets/RealTales.png";
+import codingCourses from './assets/coderCourses.png';
 
 import {
   AiFillTwitterCircle,
@@ -180,6 +180,20 @@ export default function App() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
           <div className="basis-1/3 flex-1">
               <a
+                href="https://coding-courses.vercel.app/"
+                target="_blank"
+              >
+                <img
+                  className="rounded-lg object-cover"
+                  style={{ width: "100%", height: "100%" }}
+                  src={codingCourses}
+                  alt="Coidng Courses"
+                />
+              </a>
+            </div>
+
+          <div className="basis-1/3 flex-1">
+              <a
                 href="https://videostreaming-phi-black.vercel.app/"
                 target="_blank"
               >
@@ -295,19 +309,7 @@ export default function App() {
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1">
-              <a
-                href="https://iutkarsh077.github.io/react-app/"
-                target="_blank"
-              >
-                <img
-                  className="rounded-lg object-fill"
-                  style={{ width: "100%", height: "100%" }}
-                  src={textmanipulate}
-                  alt="Text Manipulate"
-                />
-              </a>
-            </div>
+            
           </div>
         </section>
       </main>
