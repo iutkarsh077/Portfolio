@@ -13,6 +13,7 @@ import auth from './assets/auth.png';
 import shopsmart from "./assets/shopsmart.png";
 import RealTales from "./assets/RealTales.png";
 import codingCourses from './assets/coderCourses.png';
+import healthify from './assets/healthify.png';
 
 import {
   AiFillTwitterCircle,
@@ -305,6 +306,20 @@ export default function App() {
                   className="rounded-lg object-cover"
                   style={{ width: "100%", height: "100%" }}
                   src={RealTales}
+                  alt="Blog App"
+                />
+              </a>
+            </div>
+
+            <div className="basis-1/3 flex-1">
+              <a
+                href="https://healthify-lake.vercel.app/"
+                target="_blank"
+              >
+                <img
+                  className="rounded-lg object-cover"
+                  style={{ width: "100%", height: "100%" }}
+                  src={healthify}
                   alt="Blog App"
                 />
               </a>
