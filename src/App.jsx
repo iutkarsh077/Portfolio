@@ -206,6 +206,21 @@ export default function App() {
                 />
               </a>
             </div>
+
+            <div className="basis-1/3 flex-1">
+              <a
+                href="https://healthify-lake.vercel.app/"
+                target="_blank"
+              >
+                <img
+                  className="rounded-lg object-cover"
+                  style={{ width: "100%", height: "100%" }}
+                  src={healthify}
+                  alt="Blog App"
+                />
+              </a>
+            </div>
+
             <div className="basis-1/3 flex-1">
               <a
                 href="https://authentication-system-32ypjptib-iutkarsh077s-projects.vercel.app/login"
@@ -245,19 +260,7 @@ export default function App() {
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1">
-              <a
-                href="https://iutkarsh077.github.io/Normal-web/"
-                target="_blank"
-              >
-                <img
-                  className="rounded-lg object-cover"
-                  style={{ width: "100%", height: "100%" }}
-                  src={aeroplane}
-                  alt="Aeroplane"
-                />
-              </a>
-            </div>
+            
             <div className="basis-1/3 flex-1">
               <a
                 href="https://iutkarsh077.github.io/Spotify-clone-2/"
@@ -311,19 +314,7 @@ export default function App() {
               </a>
             </div>
 
-            <div className="basis-1/3 flex-1">
-              <a
-                href="https://healthify-lake.vercel.app/"
-                target="_blank"
-              >
-                <img
-                  className="rounded-lg object-cover"
-                  style={{ width: "100%", height: "100%" }}
-                  src={healthify}
-                  alt="Blog App"
-                />
-              </a>
-            </div>
+            
             
           </div>
         </section>
