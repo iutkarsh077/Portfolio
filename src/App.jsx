@@ -43,7 +43,7 @@ export default function App() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-10">
+          <div className="text-center  md:p-10 py-7">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Utkarsh Singh
             </h2>
@@ -77,13 +77,17 @@ export default function App() {
                 <AiFillGithub />
               </a>
             </div>
-            <div className="mx-auto bg-gradient-to-b flex items-center from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <img
-                src={myimg}
-                alt="My Image"
-                style={{ objectFit: "cover", width: "100%", height: "100%" }}
-              />
+            
+            <div className="flex justify-center mt-20">
+              <div className="rounded-full border-2 border-gray-600 overflow-hidden h-68 w-68  md:h-96 md:w-96">
+                <img
+                  src={myimg}
+                  alt="My Image"
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
+
           </div>
         </section>
         <section>
@@ -141,9 +145,10 @@ export default function App() {
                 Let's turn your ideas into captivating designs.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">CSS, SASS</p>
+              <p className="text-gray-800 py-1">CSS3</p>
               <p className="text-gray-800 py-1">Tailwind CSS</p>
-              <p className="text-gray-800 py-1">React-Hot-Toast</p>
+              <p className="text-gray-800 py-1">Shadcn UI</p>
+
               <p className="text-gray-800 py-1">Material-UI, Bootstrap</p>
             </div>
 
@@ -185,7 +190,7 @@ export default function App() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-          <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1">
               <a href="https://mystery-box-omega.vercel.app/" target="_blank">
                 <img
                   className="rounded-lg object-cover"
