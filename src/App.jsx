@@ -2,23 +2,24 @@ import React from "react";
 import myimg from "./assets/myimg.jpg";
 import code from "./assets/code.png";
 import design from "./assets/design.png";
-import Netflix from './assets/port-netflix.png';
+import Netflix from "./assets/port-netflix.png";
 import Textspeech from "./assets/Text to speech - Google Chrome 19-10-2023 13_40_52.png";
 import aeroplane from "./assets/Text to speech - Google Chrome 19-10-2023 13_41_56.png";
 import sidhu from "./assets/Text to speech - Google Chrome 19-10-2023 13_42_37.png";
 import weather from "./assets/Text to speech - Google Chrome 19-10-2023 13_43_25.png";
 import cal from "./assets/Text to speech - Google Chrome 19-10-2023 13_44_46.png";
 import development from "./assets/devlopment.png";
-import auth from './assets/auth.png';
+import auth from "./assets/auth.png";
 import shopsmart from "./assets/shopsmart.png";
 import RealTales from "./assets/RealTales.png";
-import codingCourses from './assets/coderCourses.png';
-import healthify from './assets/healthify.png';
+import codingCourses from "./assets/coderCourses.png";
+import healthify from "./assets/healthify.png";
+import MysteryBox from "./assets/MysteryBox.png";
 
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
- AiFillGithub
+  AiFillGithub,
 } from "react-icons/ai";
 
 export default function App() {
@@ -27,7 +28,9 @@ export default function App() {
       <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl font-semibold">Javascript Developer</h1>
+            <h1 className="font-burtons text-xl font-semibold">
+              Javascript Developer
+            </h1>
             <ul className="flex items-center">
               <li>
                 <a
@@ -71,7 +74,7 @@ export default function App() {
                 target="_blank"
                 className="hover:text-white hover:ease-in-out"
               >
-                <AiFillGithub/>
+                <AiFillGithub />
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b flex items-center from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
@@ -103,7 +106,8 @@ export default function App() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 hover:scale-105 hover:ease-in-out hover:cursor-pointer flex flex-col items-center">
-              <img className="bg-red-700"
+              <img
+                className="bg-red-700"
                 src={development}
                 alt="Development"
                 style={{ width: "200px", height: "150px" }}
@@ -117,12 +121,14 @@ export default function App() {
               </p>
               <h4 className="py-4 text-teal-600">Technologies I Work With</h4>
               <p className="text-gray-800 py-1">HTML, CSS, JavaScript</p>
-              <p className="text-gray-800 py-1">React, Next Js 14, Typescript (Front-end)</p>
+              <p className="text-gray-800 py-1">
+                React, Next Js 14, Typescript (Front-end)
+              </p>
               <p className="text-gray-800 py-1">Node.js, Express (Back-end)</p>
               <p className="text-gray-800 py-1">MongoDB, Cloudinary</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 hover:scale-105 hover:ease-in-out hover:cursor-pointer flex flex-col items-center">
-              <img 
+              <img
                 src={design}
                 alt="Design"
                 style={{ width: "100px", height: "100px" }}
@@ -180,20 +186,28 @@ export default function App() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
           <div className="basis-1/3 flex-1">
-              <a
-                href="https://coding-courses.vercel.app/"
-                target="_blank"
-              >
+              <a href="https://mystery-box-omega.vercel.app/" target="_blank">
                 <img
                   className="rounded-lg object-cover"
                   style={{ width: "100%", height: "100%" }}
-                  src={codingCourses}
-                  alt="Coidng Courses"
+                  src={MysteryBox}
+                  alt="MysteryBox"
                 />
               </a>
             </div>
 
-          <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1">
+              <a href="https://coding-courses.vercel.app/" target="_blank">
+                <img
+                  className="rounded-lg object-cover"
+                  style={{ width: "100%", height: "100%" }}
+                  src={codingCourses}
+                  alt="Coding Courses"
+                />
+              </a>
+            </div>
+
+            <div className="basis-1/3 flex-1">
               <a
                 href="https://videostreaming-phi-black.vercel.app/"
                 target="_blank"
@@ -208,10 +222,7 @@ export default function App() {
             </div>
 
             <div className="basis-1/3 flex-1">
-              <a
-                href="https://healthify-lake.vercel.app/"
-                target="_blank"
-              >
+              <a href="https://healthify-lake.vercel.app/" target="_blank">
                 <img
                   className="rounded-lg object-cover"
                   style={{ width: "100%", height: "100%" }}
@@ -235,10 +246,7 @@ export default function App() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a
-                href="https://shopsmart-green.vercel.app/"
-                target="_blank"
-              >
+              <a href="https://shopsmart-green.vercel.app/" target="_blank">
                 <img
                   className="rounded-lg object-cover"
                   style={{ width: "100%", height: "100%" }}
@@ -260,7 +268,7 @@ export default function App() {
                 />
               </a>
             </div>
-            
+
             <div className="basis-1/3 flex-1">
               <a
                 href="https://iutkarsh077.github.io/Spotify-clone-2/"
@@ -301,10 +309,7 @@ export default function App() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a
-                href="https://real-tales.vercel.app/"
-                target="_blank"
-              >
+              <a href="https://real-tales.vercel.app/" target="_blank">
                 <img
                   className="rounded-lg object-cover"
                   style={{ width: "100%", height: "100%" }}
@@ -313,9 +318,6 @@ export default function App() {
                 />
               </a>
             </div>
-
-            
-            
           </div>
         </section>
       </main>
