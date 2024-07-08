@@ -35,7 +35,7 @@ export default function App() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://docs.google.com/document/d/1OFO7xEybdOWubuy1h827G87OxvXGbPsbsFlFPeNUcjo/edit?usp=sharing"
+                  href="https://docs.google.com/presentation/d/1NGp-ZlL6LuSJdriI8TD79RyJ9zwKRfIEewErYAdA-H0/edit?usp=sharing"
                   target="_blank"
                 >
                   Resume
