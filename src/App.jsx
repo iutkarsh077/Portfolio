@@ -9,7 +9,7 @@ import sidhu from "./assets/Text to speech - Google Chrome 19-10-2023 13_42_37.p
 import weather from "./assets/Text to speech - Google Chrome 19-10-2023 13_43_25.png";
 import cal from "./assets/Text to speech - Google Chrome 19-10-2023 13_44_46.png";
 import development from "./assets/devlopment.png";
-import auth from "./assets/auth.png";
+import auth from "./assets/signup.png";
 import shopsmart from "./assets/shopsmart.png";
 import RealTales from "./assets/RealTales.png";
 import codingCourses from "./assets/coderCourses.png";
@@ -35,7 +35,7 @@ export default function App() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://docs.google.com/presentation/d/1NGp-ZlL6LuSJdriI8TD79RyJ9zwKRfIEewErYAdA-H0/edit?usp=sharing"
+                  href="https://docs.google.com/presentation/d/1NGp-ZlL6LuSJdriI8TD79RyJ9zwKRfIEewErYAdA-H0/edit?usp=sharingnp["
                   target="_blank"
                 >
                   Resume
@@ -239,7 +239,7 @@ export default function App() {
 
             <div className="basis-1/3 flex-1">
               <a
-                href="https://authentication-system-32ypjptib-iutkarsh077s-projects.vercel.app/login"
+                href="https://auth-seven-chi.vercel.app/signup"
                 target="_blank"
               >
                 <img
