@@ -16,6 +16,7 @@ import codingCourses from "./assets/coderCourses.png";
 import healthify from "./assets/healthify.png";
 import MysteryBox from "./assets/MysteryBox.png";
 import jobsphere from "./assets/jobsphere.png";
+import saas2 from "./assets/saas2.png";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -190,6 +191,18 @@ export default function App() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+
+          <div className="basis-1/3 flex-1">
+              <a href="https://saas-video-image-ai-editor.vercel.app/home" target="_blank">
+                <img
+                  className="rounded-lg object-cover"
+                  style={{ width: "100%", height: "100%" }}
+                  src={saas2}
+                  alt="AI-Saas"
+                />
+              </a>
+            </div>
+
           <div className="basis-1/3 flex-1">
               <a href="https://job-sphere.vercel.app/" target="_blank">
                 <img
