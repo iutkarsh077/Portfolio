@@ -4,7 +4,6 @@ import code from "./assets/code.png";
 import design from "./assets/design.png";
 import Netflix from "./assets/port-netflix.png";
 import Textspeech from "./assets/Text to speech - Google Chrome 19-10-2023 13_40_52.png";
-import aeroplane from "./assets/Text to speech - Google Chrome 19-10-2023 13_41_56.png";
 import sidhu from "./assets/Text to speech - Google Chrome 19-10-2023 13_42_37.png";
 import weather from "./assets/Text to speech - Google Chrome 19-10-2023 13_43_25.png";
 import cal from "./assets/Text to speech - Google Chrome 19-10-2023 13_44_46.png";
